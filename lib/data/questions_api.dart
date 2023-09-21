@@ -9,12 +9,12 @@ void getData() async {
     final dio = Dio();
     const String url = 'https://opentdb.com/api.php?amount=5&type=multiple';
     var response = await dio.get(url);
-    questions.add(QuestionModel(response.data['results'][0]['question'], {
-      "1": false,
-      "2": false,
-      "3": true,
-      "4": false,
-    }));
+    // questions.add(QuestionModel(response.data['results'][0]['question'], {
+    //   "1": false,
+    //   "2": false,
+    //   "3": true,
+    //   "4": false,
+    // }));
 
     // const String url = 'https://opentdb.com/api.php?amount=5&type=multiple';
     // var result = await http.get(Uri.parse(url));

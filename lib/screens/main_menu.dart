@@ -16,7 +16,7 @@ class _MainMenuState extends State<MainMenu> {
       backgroundColor: AppColor.pripmaryColor,
       body: Padding(
         padding: const EdgeInsets.symmetric(
-          vertical: 48.0,
+          vertical: 50.0,
           horizontal: 12.0,
         ),
         child: Column(
