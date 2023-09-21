@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:quiz_app/data/questions_example.dart';
+// import 'package:quiz_app/data/questions_example.dart';
+import 'package:quiz_app/data/questions_api.dart';
+import 'package:quiz_app/model/question_model.dart';
 import 'package:quiz_app/screens/result_screen.dart';
 import 'package:quiz_app/ui/shared/color.dart';
-import 'package:quiz_app/widgets/quiz_widget.dart';
-import 'package:quiz_app/model/question_model.dart';
+// import 'package:quiz_app/widgets/quiz_widget.dart';
+// import 'package:quiz_app/model/question_model.dart';
 
 class QuizScreen extends StatefulWidget {
   const QuizScreen({Key? key}) : super(key: key);
@@ -18,6 +20,7 @@ class _QuizScreenState extends State<QuizScreen> {
   PageController? _controller;
   String btnText = "Next Question";
   bool answered = false;
+
   @override
   void initState() {
     // TODO: implement initState
